@@ -1,1 +1,51 @@
 index.html
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <title>আমার ব্যবসা</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body{margin:0;font-family:Arial;background:#f5f5f5}
+    header{background:#0d6efd;color:white;padding:20px;text-align:center}
+    section{padding:20px;max-width:900px;margin:auto}
+    .box{background:white;padding:20px;margin-bottom:15px;border-radius:6px}
+    .btn{background:#198754;color:white;padding:10px 15px;text-decoration:none;border-radius:5px}
+    footer{background:#222;color:#ccc;text-align:center;padding:10px}
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>আপনার ব্যবসার নাম</h1>
+  <p>বিশ্বাসযোগ্য ও মানসম্মত সেবা</p>
+</header>
+
+<section>
+  <div class="box">
+    <h2>আমাদের সম্পর্কে</h2>
+    <p>আমরা সততা ও দক্ষতার সাথে ব্যবসা পরিচালনা করি।</p>
+  </div>
+
+  <div class="box">
+    <h2>আমাদের সেবা</h2>
+    <ul>
+      <li>সেবা ১</li>
+      <li>সেবা ২</li>
+      <li>সেবা ৩</li>
+    </ul>
+  </div>
+
+  <div class="box">
+    <h2>যোগাযোগ</h2>
+    <p>📞 01XXXXXXXXX</p>
+    <a class="btn" href="https://wa.me/8801XXXXXXXXX">WhatsApp করুন</a>
+  </div>
+</section>
+
+<footer>
+  © 2026 আপনার ব্যবসা
+</footer>
+
+</body>
+</html>
